@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Web", "Io.DreamerStudios.Odonto.Web\Io.DreamerStudios.Odonto.Web.csproj", "{0615BBEA-957C-461F-84BF-BF72F7080430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Api", "Io.DreamerStudios.Odonto.Api\Io.DreamerStudios.Odonto.Api.csproj", "{0690A116-92A7-44AB-8A67-12AB892A9B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Core", "Io.DreamerStudios.Odonto.Core\Io.DreamerStudios.Odonto.Core.csproj", "{4D9E9AC5-A1F1-4B2C-868F-42ED44B86DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Domain", "Io.DreamerStudios.Odonto.Domain\Io.DreamerStudios.Odonto.Domain.csproj", "{8D266419-F5A0-43A6-8720-CA1AE618E18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Repository", "Io.DreamerStudios.Odonto.Repository\Io.DreamerStudios.Odonto.Repository.csproj", "{43141386-A2D2-48B5-8A3E-2AFA8F46838D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Io.DreamerStudios.Odonto.Tests", "Io.DreamerStudios.Odonto.Tests\Io.DreamerStudios.Odonto.Tests.csproj", "{8EE50EA3-5548-4C6F-AE09-3241DA25A1A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{97843CAC-26FB-4131-B64F-1F9FF0B7A10F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0615BBEA-957C-461F-84BF-BF72F7080430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0615BBEA-957C-461F-84BF-BF72F7080430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0615BBEA-957C-461F-84BF-BF72F7080430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0615BBEA-957C-461F-84BF-BF72F7080430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0690A116-92A7-44AB-8A67-12AB892A9B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0690A116-92A7-44AB-8A67-12AB892A9B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0690A116-92A7-44AB-8A67-12AB892A9B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0690A116-92A7-44AB-8A67-12AB892A9B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9E9AC5-A1F1-4B2C-868F-42ED44B86DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9E9AC5-A1F1-4B2C-868F-42ED44B86DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9E9AC5-A1F1-4B2C-868F-42ED44B86DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9E9AC5-A1F1-4B2C-868F-42ED44B86DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D266419-F5A0-43A6-8720-CA1AE618E18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D266419-F5A0-43A6-8720-CA1AE618E18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D266419-F5A0-43A6-8720-CA1AE618E18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D266419-F5A0-43A6-8720-CA1AE618E18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43141386-A2D2-48B5-8A3E-2AFA8F46838D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43141386-A2D2-48B5-8A3E-2AFA8F46838D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43141386-A2D2-48B5-8A3E-2AFA8F46838D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43141386-A2D2-48B5-8A3E-2AFA8F46838D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE50EA3-5548-4C6F-AE09-3241DA25A1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE50EA3-5548-4C6F-AE09-3241DA25A1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE50EA3-5548-4C6F-AE09-3241DA25A1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE50EA3-5548-4C6F-AE09-3241DA25A1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64FEC358-46EF-44C7-97EF-6B900845B87D}
+	EndGlobalSection
+EndGlobal

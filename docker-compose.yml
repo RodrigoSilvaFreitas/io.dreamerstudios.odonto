@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  sonar:
+    image: sonarqube:9.9.0-community
+    ports:
+      - "9000:9000"
+  database:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'estudos'
+      MYSQL_USER: 'estudos'
+      MYSQL_PASSWORD: 'estudos@1234'
+      MYSQL_ROOT_PASSWORD: 'rootpass'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - estudos-database:/var/lib/mysql
+volumes:
+  estudos-database:
