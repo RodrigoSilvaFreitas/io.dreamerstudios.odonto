@@ -17,6 +17,8 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Io.DreamerStudios.Odonto.Core\Io.DreamerStudios.Odonto.Core.csproj" />
+	  <ProjectReference Include="..\Io.DreamerStudios.Odonto.Domain\Io.DreamerStudios.Odonto.Domain.csproj" />
+	  <ProjectReference Include="..\Io.DreamerStudios.Odonto.Repository\Io.DreamerStudios.Odonto.Repository.csproj" />
 	</ItemGroup>
 
 </Project>

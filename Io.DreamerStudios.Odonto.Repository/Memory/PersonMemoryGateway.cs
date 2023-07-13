@@ -38,12 +38,12 @@ namespace Io.DreamerStudios.Odonto.Repository.Memory
         public Person[] GetPeople(
             int quantity,
             bool? adult,
-            long responsibleId,
-            string? name,
-            DateTime? birthday,
-            string? sex,
-            string? document,
-            string? phone,
+            long? responsibleId,
+            string name,
+            DateTime birthday,
+            string sex,
+            string document,
+            string phone,
             long cityId
             )
         {

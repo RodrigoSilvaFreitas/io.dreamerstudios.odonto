@@ -16,12 +16,12 @@ namespace Io.DreamerStudios.Odonto.Domain.UseCases
         public Person[] GetPerson(
             int quantity,
             bool? adult,
-            long responsibleId,
-            string? name,
-            DateTime? birthday,
-            string? sex,
-            string? document,
-            string? phone,
+            long? responsibleId,
+            string name,
+            DateTime birthday,
+            string sex,
+            string document,
+            string phone,
             long cityId
             )
         {
@@ -30,8 +30,8 @@ namespace Io.DreamerStudios.Odonto.Domain.UseCases
                 adult,
                 responsibleId,
                 name,
-                sex,
                 birthday,
+                sex,
                 document,
                 phone,
                 cityId);
