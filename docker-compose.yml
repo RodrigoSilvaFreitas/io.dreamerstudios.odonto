@@ -8,15 +8,15 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_DATABASE: 'estudos'
-      MYSQL_USER: 'estudos'
-      MYSQL_PASSWORD: 'estudos@1234'
+      MYSQL_DATABASE: 'odonto'
+      MYSQL_USER: 'odonto'
+      MYSQL_PASSWORD: 'odonto@1234'
       MYSQL_ROOT_PASSWORD: 'rootpass'
     ports:
       - '3306:3306'
     expose:
       - '3306'
     volumes:
-      - estudos-database:/var/lib/mysql
+      - odonto-database:/var/lib/mysql
 volumes:
-  estudos-database:
+  odonto-database:

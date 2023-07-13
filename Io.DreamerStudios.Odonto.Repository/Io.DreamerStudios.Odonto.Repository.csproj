@@ -20,5 +20,9 @@
 		<PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.2" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Io.DreamerStudios.Odonto.Core\Io.DreamerStudios.Odonto.Core.csproj" />
+	</ItemGroup>
+
 
 </Project>

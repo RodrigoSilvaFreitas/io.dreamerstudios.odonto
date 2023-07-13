@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+	  <ProjectReference Include="..\Io.DreamerStudios.Odonto.Core\Io.DreamerStudios.Odonto.Core.csproj" />
+	</ItemGroup>
 
 </Project>
